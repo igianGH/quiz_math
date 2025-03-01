@@ -1,6 +1,7 @@
 import math as mt
 import random as rn
 from datetime import date
+import time
 
 def d2b(i):
   j=n=0
@@ -199,4 +200,5 @@ def subnetX():
   else:
     print("Λάθος!\n"+sbnN)
   best+=10
-  print("\n_______________________\nΗμερομηνία: "+str(date.today())+"\n\nΤελικός Βαθμός: ",score,"/",best)
+  print("\n______________________________________\nΗμερομηνία: "+time.strftime("%a, %d %b %Y, %H:%M:%S",time.gmtime(time.time())))
+  print("\n\nΤελικός Βαθμός: ",score,"/",best)
