@@ -37,7 +37,7 @@ def mquiz():
   for i in quiz:
     aa+=1
     Qu(Q[i][Q[i].find('.')+1:])
-    if(A[i][0]==input("\n> "):
+    if(A[i][0]==input("\n> ")):
     #if(A[i][0]==input(str(aa)+'.'+Q[i][Q[i].find('.')+1:]+"\n> ")):
       print("\nΣωστή Απάντηση!\n")
       vathmos+=10
