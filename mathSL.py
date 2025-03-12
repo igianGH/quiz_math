@@ -38,7 +38,9 @@ def Q2p(line,fgs=(28,.1),dpi=80):
 
 def mquiz():
   Q,A=defaultdict(),defaultdict()
-
+  line=r"""$\bullet$ Να απαντήσετε με Σ/Λ στις παρακάτω ερωτήσεις:
+  """
+  Q2p(line)
   with open("mtDB.txt",'r') as f:
     nline=0
     for line in f:
@@ -59,9 +61,12 @@ def mquiz():
   for i in quiz:
     aa+=1
     _Q2p(str(aa)+". "+Q[i][Q[i].find('.')+1:])
-    if(A[i][0]==input("\n> ")):#if(A[i][0]==input(str(aa)+'.'+Q[i][Q[i].find('.')+1:]+"\n> ")):
+    apantisi=input("\n> ")
+    if(A[i][0]==apantisi):#if(A[i][0]==input(str(aa)+'.'+Q[i][Q[i].find('.')+1:]+"\n> ")):
       print("Σωστή Απάντηση!\n")
       vathmos+=10
+    elif(apantisi in ['telos','τελος']):
+      break
     else:
       print("Λάθος Απάντηση!")
       Q2p("$\hookrightarrow$ "+A[i][1])
