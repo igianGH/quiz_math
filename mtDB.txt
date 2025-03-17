@@ -240,12 +240,12 @@ $x_1 < x_2\ $ συνεπώς $f^{-1}\ $ είναι γνησίως αύξουσα
 
 72. Αν $f(x) \leq g(x)\ $ κοντά στο $x_0$ και έχουν όριο στο $x_0\ $ τότε $\lim_{x\rightarrow x_0}f(x) \leq \lim_{x\rightarrow x_0}g(x)\ $. Σ
 Θεώρημα του Βιβλίου.
-(λογικά ισοδύναμο του $\lim_{x\rightarrow x_0}f(x) > \lim_{x\rightarrow x_0}g(x)\ $ \Rightarrow $f(x) > g(x)\ $ κοντά στο $x_0$\ )
+(λογικά ισοδύναμο του $\lim_{x\rightarrow x_0}f(x) > \lim_{x\rightarrow x_0}g(x)\ \Rightarrow f(x) > g(x)\ $ κοντά στο $x_0$\ )
 
-73. Αν $f(x_0)=0\ $ και η $f\ $ έχει όρια στο $x_0\ $ τότε $\lim_{x\rightarrow x_0}f(x) = 0. Λ
+73. Αν $f(x_0)=0\ $ και η $f\ $ έχει όριο στο $x_0\ $ τότε $\lim_{x\rightarrow x_0}f(x) = 0$. Λ
 Ισχύει μόνο αν $f\ $ είναι συνεχής στο $x_0\ $
 
-74. Αν $\lim_{x\rightarrow x_0}f(x) = 0 τότε $f(x_0)=0\ $ κοντά στο $x_0$. Λ
+74. Αν $\lim_{x\rightarrow x_0}f(x) = 0$ τότε $f(x_0)=0\ $ κοντά στο $x_0$. Λ
 Αντιπαράδειγμα η $f(x) = x\ $ στο 0.
 
 75. Αν $f(x) < 0\ $ κοντά στο $x_0\ $ τότε είναι αδύνατο να ισχύει $\lim_{x\rightarrow x_0}f(x) > 0\ $. Σ
@@ -269,7 +269,7 @@ $x_1 < x_2\ $ συνεπώς $f^{-1}\ $ είναι γνησίως αύξουσα
 81. Αν $\lim_{x\rightarrow x_0}f(x) = y_0\ $ και $\lim_{y\rightarrow y_0}g(y) = z$ τότε $\lim_{x\rightarrow x_0}g(\ f(x)\ ) = z$. Λ
 Πρέπει επίσης $f\ $ να μην είναι σταθερή κοντά στο $x_0$ ή ισοδύναμα $f(x) \ne y_0$ κοντά στο $x_0$.
 
-82. Αν $\lim_{x\rightarrow x_0}\frac{f(x)}{x} = y_0\ $ τότε $\lim_{x\rightarrow x_0}\frac{f(3x)}{x} = 3y_0\$. Σ
+82. Αν $\lim_{x\rightarrow x_0}\frac{f(x)}{x} = y_0\ $ τότε $\lim_{x\rightarrow x_0}\frac{f(3x)}{x} = 3y_0\ $. Σ
 Ισχύει διότι $\lim_{x\rightarrow x_0}\frac{f(3x)}{x} = \lim_{u\rightarrow u_0}\frac{f(u)}{\frac{u}{3}} = \lim_{u\rightarrow u_0}3\frac{f(u)}{u}$
 
 83. Αν $f(x) < g(x)\ $ και $f,g\ $ γνησίως φθίνουσες συναρτήσεις τότε $\lim_{x\rightarrow x_0}f(x) > \lim_{x\rightarrow x_0}g(x)$. Λ
@@ -286,9 +286,9 @@ $x_1 < x_2\ $ συνεπώς $f^{-1}\ $ είναι γνησίως αύξουσα
 $\frac{-1}{|x|} \leq \frac{\eta\mu(x)}{x} \leq \frac{1}{|x|}$
 
 87. Αν $f(x) < g(x) < h(x)\ $ και $\lim_{x\rightarrow x_0}f(x) \ne \lim_{x\rightarrow x_0}h(x)\ $ τότε δεν υπάρχει το όριο $\lim_{x\rightarrow x_0}g(x)$. Λ
-Μπορεί να υπάρχει και να ισχύει $\lim_{x\rightarrow x_0}f(x) < \lim_{x\rightarrow x_0}g(x) \lim_{x\rightarrow x_0}h(x)\ $
+Μπορεί να υπάρχει και να ισχύει $\lim_{x\rightarrow x_0}f(x) < \lim_{x\rightarrow x_0}g(x) < \lim_{x\rightarrow x_0}h(x)\ $
 
-88. Αν $f\ $ άρτια και $\lim_{x\rightarrow x_0}f(x) = y_0\ $ τότε $\lim_{x\rightarrow -x_0}f(x) = -y_0$. Σ
+88. Αν $f\ $ περιττή και $\lim_{x\rightarrow x_0}f(x) = y_0\ $ τότε $\lim_{x\rightarrow -x_0}f(x) = -y_0$. Σ
 Ισχύει διότι $\lim_{x\rightarrow -x_0}f(x) = \lim_{u\rightarrow x_0}f(-u) = \lim_{u\rightarrow x_0}-f(u) = -y_0\ $ για $u = -x$
 
 89. Αν δεν υπάρχει το $\lim_{x\rightarrow x_0}f(x)\ $ τότε δεν υπάρχει και το $\lim_{x\rightarrow x_0}g(\ f(x)\ )\ $. Λ
@@ -307,7 +307,7 @@ $\frac{-1}{|x|} \leq \frac{\eta\mu(x)}{x} \leq \frac{1}{|x|}$
 $\lim_{x\rightarrow x_0}f(x) = 0\ $ και $f(x) > 0\ $ κοντά στο $x_0\ $  άρα $\lim_{x\rightarrow x_0}\frac{1}{f(x)} = +\infty$
 
 94. Αν $\lim_{x\rightarrow x_0}f(x) = 0\ $ τότε $\lim_{x\rightarrow x_0}\frac{1}{f(x)} = \pm\infty$. Λ
-Μπορεί το όριο να μην υπάρχει.
+Μπορεί το όριο να μην υπάρχει, όπως το $\lim_{x\rightarrow 1}\frac{1}{1-x}$
 
 95.  Αν $f(x), g(x) > 0\ $ κοντά στο $x_0\ $ και $\lim_{x\rightarrow x_0}f(x) = 0\ $ τότε $\lim_{x\rightarrow x_0}\frac{g(x)}{f(x)} = +\infty$. Λ
 Δεν ισχύει γενικά αν $\lim_{x\rightarrow x_0}g(x) = 0$
@@ -315,8 +315,8 @@ $\lim_{x\rightarrow x_0}f(x) = 0\ $ και $f(x) > 0\ $ κοντά στο $x_0\ 
 96.  Αν $\lim_{x\rightarrow x_0}f(x) = +\infty\ $ και $\lim_{x\rightarrow x_0}g(x) > 0\ $ τότε $\lim_{x\rightarrow x_0}f(x)\cdot g(x) = +\infty$. Σ
 Ισχύει διότι $\lim_{x\rightarrow x_0}g(x) > 0\ \Rightarrow g(x)>0\ $ κοντά στο $x_0$
 
-97. Αν $\lim_{x\rightarrow x_0}f(x) = +\infty\ $ και $\lim_{x\rightarrow x_0}g(x) -\infty\ $ τότε $\lim_{x\rightarrow x_0}f(x) + g(x) = 0$. Λ
-Αντιπαράδειγμα η $\frac{1}{x} - \frac{1}{e^x-1}$
+97. Αν $\lim_{x\rightarrow x_0}f(x) = +\infty\ $ και $\lim_{x\rightarrow x_0}g(x) = -\infty\ $ τότε $\lim_{x\rightarrow x_0}f(x) + g(x) = 0$. Λ
+Αντιπαράδειγμα η $\ \frac{1}{x} - \frac{1}{e^x-1}$
 
 98. Αν $\lim_{x\rightarrow 1}\frac{x+k}{x-1}\in\mathbb{R}\ $ τότε $k = -1$. Σ
 Ισχύει διότι αν $k \ne -1$ τότε $\lim_{x\rightarrow 1}\frac{x+k}{x-1}\ $ δεν υπάρχει.
